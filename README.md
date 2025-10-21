@@ -1,0 +1,228 @@
+[style.css](https://github.com/user-attachments/files/23026931/style.css)
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f7f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 15px;
+  transition: background 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #0055aa;
+  color: #fff;
+}
+
+/* ===============================
+   Hero Section
+   =============================== */
+#hero {
+  background-color: #e6f0ff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#hero h2 {
+  color: #003366;
+  font-size: 1.8rem;
+}
+
+#hero p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+/* ===============================
+   Section Layout
+   =============================== */
+section {
+  max-width: 900px;
+  background-color: #fff;
+  margin: 40px auto;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #003366;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #0055aa;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* ===============================
+   About Section
+   =============================== */
+#about img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#about p {
+  text-align: center;
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ===============================
+   Projects Section
+   =============================== */
+#projects ul {
+  list-style-type: square;
+  padding-left: 40px;
+}
+
+#projects li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* ===============================
+   Skills Table
+   =============================== */
+#skills table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#skills th, #skills td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#skills th {
+  background-color: #0055aa;
+  color: white;
+}
+
+#skills tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #003366;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  background-color: #0055aa;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #003366;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0055aa;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  display: inline-block;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: background 0.3s;
+}
+
+#back-to-top:hover {
+  background-color: #003366;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 40px auto;
+  width: 80%;
+}
